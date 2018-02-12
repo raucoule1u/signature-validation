@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SignaturePolicy xmlns="http://www.arhs-group.com/spikeseed"
+                 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                 xsi:noNamespaceSchemaLocation="sign-val-pol.xsd">
+  <SignaturePolicyInfo>
+    <SignaturePolicyId>
+      <SignPolicyId>http://www.arhs-group.com/spikeseed/policy.xml</SignPolicyId>
+      <SignPolicyName>DefaultPolicy</SignPolicyName>
+      <SignPolicyVersion>1.0</SignPolicyVersion>
+      <SignPolicyAuthority>
+        <SignPolicyAuthorityId>ID001</SignPolicyAuthorityId>
+        <SignPolicyAuthorityName>SignPolicyAuthorityName0</SignPolicyAuthorityName>
+      </SignPolicyAuthority>
+    </SignaturePolicyId>
+    <DigestAlgorithm>http://www.w3.org/2001/04/xmlenc#sha256</DigestAlgorithm>
+    <DateOfIssue>2017-07-25T12:13:51.0</DateOfIssue>
+    <PolicyIssuerName>Rocha</PolicyIssuerName>
+    <FieldOfApplication>ValS</FieldOfApplication>
+    <SignatureValidationPolicy>
+      <SigningPeriod>
+        <NotBefore>2017-07-18T07:30:51.0</NotBefore>
+        <NotAfter>2019-07-21T16:30:51.0</NotAfter>
+      </SigningPeriod>
+    </SignatureValidationPolicy>
+  </SignaturePolicyInfo>
+</SignaturePolicy>
